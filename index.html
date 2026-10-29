@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATE Games</title>
+<meta name="description" content="ATE Games — an indie game studio from Kazakhstan.">
+<link rel="icon" href="logo.png">
+<style>
+  :root { --bg: #fbfaff; --fg: #1f1b2e; --muted: #5d5873; --accent: #6b3fd1; --line: #e6e2f3; --card: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15121f; --fg: #ece9f6; --muted: #a9a3c0; --accent: #b79bff; --line: #2c2740; --card: #1d1929; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .hero { background: linear-gradient(135deg, #7c4dff, #ff5e78); color: #fff; padding: 56px 16px 64px; text-align: center; }
+  .hero img { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+  .hero h1 { font-size: 34px; margin: 18px 0 6px; line-height: 1.2; }
+  .hero p { margin: 0 auto; max-width: 520px; opacity: .92; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h2 { font-size: 20px; margin: 8px 0 16px; }
+  .game { display: flex; gap: 16px; align-items: center; background: var(--card); border: 1px solid var(--line);
+          border-radius: 18px; padding: 16px; }
+  .game img { width: 84px; height: 84px; border-radius: 20px; flex: none; }
+  .game h3 { margin: 0 0 4px; font-size: 18px; }
+  .game p { margin: 0 0 10px; color: var(--muted); font-size: 15px; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px; }
+  .links a { padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--accent);
+             text-decoration: none; font-size: 14px; }
+  .links a.play { background: var(--accent); border-color: var(--accent); color: #fff; }
+  footer { color: var(--muted); font-size: 14px; text-align: center; margin-top: 48px; }
+  @media (max-width: 420px) { .game { flex-direction: column; align-items: flex-start; } }
+</style>
+</head>
+<body>
+<div class="hero">
+  <img src="logo.png" alt="ATE Games logo">
+  <h1>ATE Games</h1>
+  <p>An indie game studio from Kazakhstan. Bright, simple games you learn in a second — and can't put down.<br>
+     Инди-студия из Казахстана: яркие и простые игры.</p>
+</div>
+<main>
+  <h2>Our games</h2>
+  <div class="game">
+    <img src="stack.png" alt="Perfect Stack Tower icon">
+    <div>
+      <h3>Perfect Stack Tower</h3>
+      <p>Stack the blocks dead on, chain PERFECTs, beat the bosses of six worlds and build your tower to the Moon.</p>
+      <div class="links">
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.akhmet.stack&amp;referrer=utm_source%3Dsite">Google Play</a>
+        <a href="https://akhmett02.github.io/perfect-stack-tower-privacy/">Privacy policy</a>
+        <a href="https://akhmett02.github.io/perfect-stack-tower-privacy/support.html">Support</a>
+      </div>
+    </div>
+  </div>
+  <footer>© 2026 ATE Games</footer>
+</main>
+</body>
+</html>
